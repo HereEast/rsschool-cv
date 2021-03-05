@@ -1,1 +1,40 @@
-style.css
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+html {
+    background-color: #F5F5F5;
+}
+
+.cv-page {
+    background-color: #FFFFFF;
+    margin: 40px;
+}
+
+.title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    color: #A6A6A6;
+    text-transform: uppercase;
+}
+
+.link {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    color: #A6A6A6;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
