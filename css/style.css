@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500&display=swap');
 
+html {
+    background-color: #f5f5f5;
+}
+
 * {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-size: 18px;
 }
 
+.profile__photo {
+    background-image: url(../images/nastia.jpeg);
+    width: 200px;
+    height: 135px;
+    background-size: cover;
+}
+
 .cv-page {
     background-color: #FFFFFF;
     margin: 40px;
+    padding: 40px;
 }
 
 .title {
