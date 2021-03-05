@@ -2,12 +2,8 @@
 
 * {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
-}
-
-html {
-    background-color: #F5F5F5;
 }
 
 .cv-page {
@@ -16,24 +12,16 @@ html {
 }
 
 .title {
-    font-family: 'Roboto Mono', monospace;
     font-weight: 500;
-    font-size: 18px;
     text-transform: uppercase;
 }
 
 .subtitle {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
-    font-size: 18px;
     color: #A6A6A6;
     text-transform: uppercase;
 }
 
 .link {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
-    font-size: 18px;
     color: #A6A6A6;
     text-transform: uppercase;
     text-decoration: underline;
