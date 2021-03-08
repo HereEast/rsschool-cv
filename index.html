@@ -202,8 +202,7 @@
                         <Br>pixelDensity(2);
                         <Br>background(255);
                         <Br>noStroke();
-                        <Br>colorMode(HSB);
-                        <Br>}
+                        <Br>colorMode(HSB);}
                         <Br>void draw() {
                         <Br>float x = 0;
                         <Br>while (x < width) {
@@ -212,17 +211,22 @@
                         <Br>float co = noise(x/500, y/500, z) * 255;
                         <Br>fill(co, 255, 255);
                         <Br>rect(x, y, 2, 2);
-                        <Br>y += 2;
-                        <Br>}
-                        <Br>x += 2;
-                        <Br>}
-                        <Br>z += 0.005;
-                        <Br>}}
+                        <Br>y += 2;}
+                        <Br>x += 2;}
+                        <Br>z += 0.005;}}
                     </code>
                 </div>
             </section>
         </main>
         
+        <!-- FOOTER -->
+
+        <footer class='footer'>
+            <div class='footer__credentials'>
+                <p> 2021, <a href='https://github.com/HereEast'>Here East</a> for <a href='https://app.rs.school/'> Rolling Scopes</a></a></p>
+            </div>
+        </footer>
+
     </div>
 </body>
 </html>
