@@ -82,7 +82,6 @@ void keyPressed() {
 
 
 #### CONTACTS
-[Linkedin](https://www.linkedin.com/in/nastiapiven/)
-[Behance](https://www.behance.net/nastiapiven)
-[Dribbble](https://www.dribbble.com/nastiapiven)
-##
+[Linkedin](https://www.linkedin.com/in/nastiapiven/)  
+[Behance](https://www.behance.net/nastiapiven)  
+[Dribbble](https://www.dribbble.com/nastiapiven)  
