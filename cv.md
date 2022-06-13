@@ -11,7 +11,7 @@ Brand & visual designer and art-director with a focus on creating mood, imagery 
 | ---- | ------- | -------- |
 | 2020 – NOW | SOLYANKA Agency | Art Director |
 | 2019 — NOW | EMERGE Global Ventures Ltd. | Art Director |
-| 2019 — 2020 | EPAM Systems | Lead Experience Designer |
+| 2014 — 2020 | EPAM Systems | Lead Experience Designer |
 | 2019 — NOW | HERE FF | Founder / Type Designer |
 ##
 
