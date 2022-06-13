@@ -25,7 +25,8 @@
                 </div>
             </div>
             <div class="info__blocks">
-                <div class="column experience" id="experience">
+                <!-- EXPERIENCE -->
+                <div class="column experience">
                     <div class="experience__title">
                         <h2 class="title">Experience</h2>
                     </div>
@@ -75,7 +76,8 @@
                         <p>Senior Visual Designer,<br>EPAM Systems</p>
                     </div>
                 </div>
-                <div class="column education" id="education">
+                <!-- EDUCATION -->
+                <div class="column education">
                     <div class="education__title">
                         <h2 class="title">Education</h2>
                     </div>
@@ -104,7 +106,8 @@
                         <p>International Law,<br>Belarussian State University</p>
                     </div>
                 </div>
-                <div class="column skills" id="skills">
+                <!-- SKILLS -->
+                <div class="column skills">
                     <div class="skills__title">
                         <h2 class="title">Skills</h2>
                     </div>
@@ -129,7 +132,7 @@
                         <li>English: B2+</li>
                     </ul>
                 </div>
-                <div class="column interests__contacts" id="contacts">
+                <div class="column interests__contacts">
                     <div class="interests">
                         <div class="interests__title">
                             <h2 class="title">Interests</h2>
@@ -153,6 +156,45 @@
                             <li><a class="link" href="https://www.instagram.com/nastiapiven/" target="_blank">Instagram</a></li>
                         </ul>
                     </div>
+                </div>
+            </section>
+            <!-- CODE -->
+            <section class='code-block'>
+                <div class='video__container' id='video'>
+                    <video class='video' autoplay loop>
+                        <source src="./images/video.mp4" type='video/mp4'>
+                    </video>
+                </div>
+                <div class='code__example' id='code'>
+                        <code>
+                            float z = 0;
+                            <br>
+                            <br>void setup() {
+                            <br>&emsp;&emsp;size(1000, 800);
+                            <br>&emsp;&emsp;pixelDensity(2);
+                            <br>&emsp;&emsp;background(255);
+                            <br>&emsp;&emsp;noStroke();
+                            <br>&emsp;&emsp;colorMode(HSB);
+                            <br>}
+                            <br>
+                            <br>void draw() {
+                            <br>&emsp;&emsp;float x = 0;
+                            <br>
+                            <br>&emsp;&emsp;while (x &lt; width) {
+                            <br>&emsp;&emsp;&emsp;&emsp;float y = 0;
+                            <br>&emsp;&emsp;&emsp;&emsp;while (y &lt; height) {
+    
+                            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;float co = noise(x/500, y/500, z) * 255;
+                            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;fill(co, 255, 255);
+                            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;rect(x, y, 2, 2);
+                            <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;y += 2;
+                            <br>&emsp;&emsp;&emsp;&emsp;}
+                            <br>&emsp;&emsp;x += 2;
+                            <br>&emsp;&emsp;}
+                            <br>
+                            <br>&emsp;&emsp;z += 0.005;
+                            <br>}
+                        </code>
                 </div>
             </section>
         </main>
